@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Focus Line</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Focus Line</p>
+    <h1>网页阅读辅助线</h1>
+    <button id="toggle">开启 / 关闭</button>
+    <label>
+      辅助线高度
+      <input id="size" type="range" min="48" max="180" value="92">
+    </label>
+    <p class="hint">开启后在网页内移动鼠标，亮区会跟随光标，帮助阅读长文章。</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

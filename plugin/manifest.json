@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Line",
+  "version": "1.0.0",
+  "description": "Add a movable reading ruler and soft page dimmer to long web pages.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Focus Line",
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["<all_urls>"]
+}
